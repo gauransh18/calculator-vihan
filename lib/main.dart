@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF111929),)
       ),
-      title: 'Calculator App',
+      title: 'Calculator App 2',
       debugShowCheckedModeBanner: false,
       home: isFirstTime ? AppStart() : HomeScreen(),
     );
